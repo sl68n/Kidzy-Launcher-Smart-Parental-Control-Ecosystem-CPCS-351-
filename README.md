@@ -1,62 +1,115 @@
-# Kidzy Launcher – Smart Parental Control Ecosystem
+# Kidzy – Educational Kids Platform
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green)
-![AI](https://img.shields.io/badge/AI-Integrated-orange)
+![Course](https://img.shields.io/badge/Course-CPCS351-orange)
+![Type](https://img.shields.io/badge/Project-Software%20Engineering-blue)
+![Platform](https://img.shields.io/badge/Platform-Mobile%20%7C%20Web-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-A secure and intelligent launcher designed to replace the default home screen and create a safe, interactive digital environment for children.  
-Kidzy empowers parents with flexible control tools while guiding children toward healthy digital habits through AI-driven assistance.
+Kidzy is an educational software platform designed to provide interactive learning experiences for children in a safe and engaging environment.
+
+This project was developed for the CPCS351 – Software Engineering course.
 
 ---
 
-## Key Features
+## Project Overview
 
-- **Launcher-Based Control** – Replaces the default home screen to prevent bypassing restrictions.
-- **App Whitelist/Blacklist** – Parents manage accessible applications.
-- **Screen Time Scheduling** – Enforce daily usage limits with AI reminders.
-- **AI Assistant** – Smart character-based assistant delivering reminders and educational suggestions.
-- **Usage Reports** – Monitor activity, emotional feedback, and behavior patterns.
-- **PIN Protection** – Secure parental access.
-- **Offline Functionality** – Core restrictions work without internet.
+Kidzy aims to create a modern digital learning environment that:
+
+- Provides interactive educational content
+- Tracks student progress
+- Engages children with gamified learning
+- Allows parents to monitor performance
+- Offers secure user management
+
+The system is designed with usability, scalability, and child safety as top priorities.
+
+---
+
+## Project Objectives
+
+- Develop a user-friendly educational platform
+- Implement structured learning modules
+- Provide secure authentication and user roles
+- Design an engaging UI suitable for children
+- Ensure system reliability and performance
+
+---
+
+## System Features
+
+### Student Features
+- Interactive lessons
+- Progress tracking
+- Quiz and activity system
+- Achievement rewards
+
+### Parent Features
+- Monitor child performance
+- View reports and progress analytics
+
+### Admin Features
+- Manage content
+- Manage users
+- System monitoring
+
+---
+
+## Software Engineering Process
+
+The project followed standard Software Engineering phases:
+
+1. Requirements Analysis
+2. System Design
+3. Implementation
+4. Testing
+5. Deployment Planning
+
+Artifacts produced:
+- Software Requirements Specification (SRS)
+- System Design Documentation
+- Presentation Slides
+- Final Report
 
 ---
 
 ## System Architecture
 
-Kidzy operates on a **Client–Server Model** with local rule enforcement:
-
-- Parent App (Control Panel)
-- Child Launcher (Device Interface Layer)
-- AI Core (Behavior Monitoring & Suggestions)
-- Cloud Backend (Sync & Model Updates)
-- Local Database (Offline Rules & Logs)
+- Frontend Interface (Child-Friendly UI)
+- Backend Server Logic
+- Database System
+- Authentication & Role Management
+- Performance Tracking Module
 
 ---
 
-## Design Highlights
+## Non-Functional Requirements
 
-- **Observer Pattern** – Sync between Parent App and Child Launcher.
-- **State Pattern** – Manages screen-time states (Play, Study, Sleep, Restricted).
-- **Launcher Architecture** – Ensures pressing Home reloads Kidzy instead of exiting.
-
----
-
-## Testing Strategy
-
-- Functional Testing
-- Integration Testing
-- Performance Testing (App blocking < 100ms)
-- Security Testing (PIN encryption & tamper resistance)
-- Compatibility Testing (Android & iOS devices)
+- Security and data privacy
+- Usability for children
+- Performance optimization
+- Scalability
+- Reliability
 
 ---
 
-## Vision
+## Technologies Used
 
-Kidzy is designed to expand into a full digital ecosystem including:
+- Software Engineering Principles
+- System Modeling
+- UI/UX Design
+- Project Planning & Management Tools
 
-- Multi-device family management
-- Smartwatch integration
-- Advanced on-device AI models
-- Cross-device parent dashboard
+---
+
+## Academic Information
+
+Course: CPCS351 – Software Engineering  
+University: King Abdulaziz University  
+
+---
+
+## Author
+
+Sultan Yasir Alasami  
+Computer Science Student  
+King Abdulaziz University
